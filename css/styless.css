@@ -4,12 +4,13 @@
 } 
 
 header{
-    height: 20px;
+    height: 30px;
     width: 100%;
 }
 
 ul{ 
     list-style-type: none; 
+    box-sizing: content-box;
 } 
 
 .navegador{
@@ -17,28 +18,21 @@ ul{
     width: 100%;
     padding: 1% 2% 3%; 
     background-color: rgb(56, 55, 56);
-    border: 5px;
-}
-
-.contenedor_imagen{
-    box-sizing: content-box;
-    width: 50px;
-    height: 30px;
-    background-image: url("/img/codoacodo.png");
 }
 
 .logo_cac{
     width: 80px;
-    height: 20px;
+    height: 1%;
+    margin-left: 7%;
 }
 
 .letras_nav{
     color: white;
     text-decoration: none;
     font-size: 16px;
-    padding: 2%;
-    position: relative;
+    position:absolute;
     text-align: center;
+    padding: 1%;
 }
 
 .opciones_nav{
@@ -49,12 +43,22 @@ ul{
     color: rgb(193, 186, 186);
     text-decoration: none;
     font-size: 16px;
-    padding: 2%;
-    position: relative;
+    padding: 1%;
+    position: absolute;
     text-align: center;
-    margin-left: -3%;
+    margin-left: 38%;
 }
+
+.espacio_lugar_fecha{
+    margin-left: 45%;
+}
+
+.espacio_conviertete{
+    margin-left: 52%;
+}
+
 
 #letra_color_verde{
     color: rgb(18, 158, 18);
+    margin-left: 63%;
 }
