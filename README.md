@@ -24,5 +24,10 @@ vistos y aprendidos en clases.
 
 
 ## Lenguajes de programación usados:
--HTML
--CSS
+- HTML
+- CSS
+
+## Deploy:
+Mi proyecto está disponible en Netlify, por lo que podrás ir viendo el avance directamente desde este enlace:
+
+https://codoacodo40-tp-front.netlify.app/
