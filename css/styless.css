@@ -63,6 +63,8 @@ ul{
     margin-left: 63%;
 }
 
+
+
 #tamaño_img_carousel{
     margin-top: 2%;
     height: 650px;
@@ -96,6 +98,7 @@ ul{
 }
 
 
+
 .conoce{
     margin-top: 1%;
     text-align: center;
@@ -109,16 +112,65 @@ ul{
 
 .contenedor{
         width: 80%;
-        height: 400px;
-        margin: 0, auto;
+        height: 500px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        margin-left: 9.7%;
+        margin-top: -6%;
 }
 
 
+#steve{
+    margin-top: 8%;
+}
+
+#contenedor_prog{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#javascript{
+    font-weight: bold;
+    width: 30%;
+}
+
+#react{
+    margin-left: 3%;
+    background-color: aqua;
+    color: white;
+    width: 20%;
+}
+
+#startups{
+    margin-left: 3%;
+}
+
+#negocios{
+    background-color: gray;
+    color: white;
+}
+#nombre{
+    margin-top: -5%;
+    font-size: large;
+}
+
+
+
+
+
+#bill{
+    margin-top: 8.5%;
+    margin-left: 3%;
+}
+
+#ada{
+    margin-top: 8.5%;
+    margin-left: 3%;
+}
 
 
 @media screen and (max-width: 750px) {
