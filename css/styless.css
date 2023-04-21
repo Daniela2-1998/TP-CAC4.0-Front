@@ -159,6 +159,28 @@ ul{
 }
 
 
+#contenedor_imagen_playa{
+    width: 100%;
+    margin-top: 12%;
+}
+
+#contenedor_texto_imagen{
+    background-color:  rgb(73, 71, 73);
+    color: white;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#conoce_mas{
+    background-color: rgb(73, 71, 73);
+    color: white;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5%;
+    width: 100px;
+}
 
 
 
