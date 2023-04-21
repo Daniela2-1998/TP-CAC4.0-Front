@@ -76,8 +76,8 @@ ul{
 	position: absolute;
 	bottom: 8vw;
 	right: 4vw;
-    margin-left: 20%;
-    margin-bottom: 20%;
+    margin-left: 1%;
+    margin-bottom: 14%;
     font-weight: bolder;
 }
 
@@ -90,10 +90,36 @@ ul{
 	bottom: 8vw;
 	right: 4vw;
     margin-left: 50%;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
     text-align: end;
     font-weight: bolder;
 }
+
+
+.conoce{
+    margin-top: 1%;
+    text-align: center;
+    color: rgb(119, 116, 116);
+}
+
+.oradores{
+    margin-top: 0.5%;
+    text-align: center;
+}
+
+.contenedor{
+        width: 80%;
+        height: 400px;
+        margin: 0, auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+}
+
+
+
 
 @media screen and (max-width: 750px) {
 
@@ -173,7 +199,7 @@ ul{
         bottom: 8vw;
         right: 4vw;
         margin-left: 20%;
-        margin-bottom: 40%;
+        margin-bottom: 35%;
         font-weight: bolder;
     }
     
