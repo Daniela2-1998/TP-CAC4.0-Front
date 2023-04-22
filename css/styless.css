@@ -158,6 +158,16 @@ ul{
     font-size: large;
 }
 
+#bill{
+    margin-top: 8.5%;
+    margin-left: 3%;
+}
+
+#ada{
+    margin-top: 8.5%;
+    margin-left: 3%;
+}
+
 
 #contenedor_imagen_playa{
     width: 100%;
@@ -180,18 +190,6 @@ ul{
     border-style: solid;
     border-radius: 5%;
     width: 100px;
-}
-
-
-
-#bill{
-    margin-top: 8.5%;
-    margin-left: 3%;
-}
-
-#ada{
-    margin-top: 8.5%;
-    margin-left: 3%;
 }
 
 
@@ -289,6 +287,11 @@ ul{
         margin-bottom: 20%;
         text-align: end;
         font-weight: bolder;
+    }
+
+    #contenedor_imagen_playa{
+        width: 100%;
+        margin-top: 180%;
     }
 }
 
@@ -404,5 +407,10 @@ ul{
         margin-bottom: 10%;
         text-align: end;
         font-weight: bolder;
+    }
+
+    #contenedor_imagen_playa{
+        width: 100%;
+        margin-top: 272%;
     }
 }
