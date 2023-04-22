@@ -259,6 +259,39 @@ ul{
     margin-bottom: 2%;
 }
 
+footer{
+    background: linear-gradient(70deg, rgba(26,54,68,255), rgba(27,82,113,255));
+    height: 60px;
+    color: white;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+#preguntas_frecuentes{
+    margin-left: 12%;
+}
+
+.preguntas{
+    width: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.frecuentes{
+    width: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.palabras_footer{
+    margin-left: 4%;
+    color: white;
+    text-decoration: none;
+}
+
+
+
 @media screen and (max-width: 750px) {
 
     header{
@@ -357,7 +390,7 @@ ul{
 
     #contenedor_imagen_playa{
         width: 100%;
-        margin-top: 180%;
+        margin-top: 182%;
     }
 
    
@@ -405,6 +438,35 @@ ul{
     margin-left: 10%;
     color: rgb(105, 103, 103);
     margin-right: 50%;
+}
+
+
+footer{
+    background: linear-gradient(70deg, rgba(26,54,68,255), rgba(27,82,113,255));
+    height: 80px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#preguntas_frecuentes{
+    margin-left: -2%;
+}
+
+.preguntas{
+    color: white;
+    text-decoration: none;
+}
+
+.frecuentes{
+    color: white;
+    text-decoration: none;
+}
+
+.palabras_footer{
+    padding: 0.2%;
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -575,5 +637,33 @@ ul{
         width: 46%;
         margin-top: 2%;
     }
+
+    
+footer{
+    background: linear-gradient(70deg, rgba(26,54,68,255), rgba(27,82,113,255));
+    height: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#preguntas_frecuentes{
+    margin-left: 0%;
+}
+
+.preguntas{
+    color: white;
+    text-decoration: none;
+}
+
+.frecuentes{
+    color: white;
+    text-decoration: none;
+}
+
+.palabras_footer{
+    color: white;
+    text-decoration: none;
+}
 
 }
