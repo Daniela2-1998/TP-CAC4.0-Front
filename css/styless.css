@@ -192,6 +192,72 @@ ul{
     width: 100px;
 }
 
+.parrafo_anotate{
+    text-align: center;
+}
+
+.subrayado{
+    border-bottom: 2px dotted #191818;
+    text-decoration:none;
+}
+
+#info_orador{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15%;
+}
+
+.espacio_nombre{
+    margin-left: 24.5%;
+    width: 25%;
+}
+
+.espacio_apellido{
+    margin-left: 1.5%;
+    width: 25%;
+}
+
+.info_completa{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+
+.area{
+    margin-top: -15%;
+    margin-left: 29.2%;
+    width: 41.2%;
+}
+
+.recuadro_aviso_boton{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+.recordatorio{
+    text-align: center;
+    margin-left: 29.2%;
+    color: rgb(105, 103, 103);
+    margin-right: 50%;
+}
+
+.boton_enviar{
+    margin-left: 29.2%;
+    width: 41.2%;
+    height: 40px;
+    background-color: rgb(128, 193, 30);
+    color: white;
+    border: none;
+    border-radius: 4.2%;
+    margin-bottom: 2%;
+}
 
 @media screen and (max-width: 750px) {
 
@@ -293,6 +359,55 @@ ul{
         width: 100%;
         margin-top: 180%;
     }
+
+   
+#info_orador{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: -32%;
+}
+
+.espacio_nombre{
+    margin-left: 19%;
+    width: 40%;
+}
+
+.espacio_apellido{
+    margin-left: 1%;
+    width: 40%;
+}
+
+.info_completa{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+
+.area{
+    margin-top: -35%;
+    margin-left: 29.2%;
+    width: 41.2%;
+}
+
+.recuadro_aviso_boton{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+.recordatorio{
+    margin-left: 10%;
+    color: rgb(105, 103, 103);
+    margin-right: 50%;
+}
+
+
 }
 
 
@@ -413,4 +528,52 @@ ul{
         width: 100%;
         margin-top: 272%;
     }
+
+  
+    #info_orador{
+        width: 80%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: -45%;
+    }
+    
+    .espacio_nombre{
+        width: 60%;
+    }
+    
+    .espacio_apellido{
+        margin-top: 3%;
+        margin-left: 19%;
+        width: 60%;
+    }
+    
+    .area{
+        margin-top: -43%;
+        margin-left: 24%;
+        width: 46.5%;
+    }
+    
+    .recuadro_aviso_boton{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center; 
+    }
+    .recordatorio{
+        text-align: center;;
+        color: rgb(105, 103, 103);
+        margin-right: 50%;
+        width: 80%;
+    }
+
+    .boton_enviar{
+        margin-left: 24%;
+        width: 46%;
+        margin-top: 2%;
+    }
+
 }
