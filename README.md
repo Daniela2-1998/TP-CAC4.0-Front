@@ -8,10 +8,6 @@
    <img src="https://img.shields.io/badge/PROYECTO-%20 PÁGINA WEB-white">
  </p>
 
- 
-<h4 align="center">
-:construction: Proyecto en construcción.:construction:
-</h4>
 
 ## Descripcion del proyecto:
 Como parte de un proyecto intermedio del bootcamp de Desarrollador Fullstack con Java de Codo a Codo 4.0, se nos solicitó recrear la página web que está representada en 
@@ -28,6 +24,6 @@ vistos y aprendidos en clases.
 - CSS
 
 ## Deploy:
-Mi proyecto está disponible en Netlify, por lo que podrás ir viendo el avance directamente desde este enlace:
+Mi proyecto está disponible en Netlify:
 
 https://codoacodo40-tp-front.netlify.app/
