@@ -1,0 +1,88 @@
+.opciones-compra{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.item-compra{
+    width: 16%;
+    height: 170px;
+    margin-top: 5%;
+    margin-right: 0.5%;
+    padding: 1%;
+    border: 2px rgb(45, 198, 236);
+    border-style:groove;
+    text-align: center;
+}
+
+.item-compra:hover{
+    background-color: whitesmoke;
+    border: 2px rgb(6, 192, 239);
+    border-style:groove;
+}
+
+.estructura_formulario{
+    display: grid;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+
+.campos-formulario{
+    width: 20%;
+    height: 35px;
+    padding: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 0.7%;
+}
+
+#campo_mail{
+    width: 40.5%;
+    padding: 0.5%;
+    margin-left: 29.5%;
+}
+
+.cantidad_categorias{
+    width: 58%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5%;
+    margin-left: 13%;
+}
+
+#total{
+    width: 40.4%;
+    height: 35px;
+    background-color: rgba(120, 172, 250, 0.537);
+    color: rgb(76, 115, 167);
+    margin-left: 29.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    padding: 0.4%;
+    border-radius: 2%;
+}
+
+#tamaño_letra_multiple{
+    font-weight: lighter;
+}
+
+.botones_espacio{
+    display: flex;
+    justify-content: center;
+    margin-left: 17.8%;
+    padding: 1%;
+    width: 65%;
+}
+
+.botones{
+    width: 31.2%;
+    background-color: rgb(128, 193, 30);
+    color: white;
+    border: none;
+    padding: 1%;
+    border-radius: 4.2%;
+    margin-bottom: 2%;
+    margin-right: 1.5%;
+}
