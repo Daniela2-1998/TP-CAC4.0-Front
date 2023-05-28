@@ -63,18 +63,18 @@
                 <h6 id="categorias">Categoría</h6>
             </div>
             <div class="formulario">
-                <input type="text" placeholder="cantidad" class="campos-formulario">
-                <select class="campos-formulario" id="tamaño_letra_multiple">
-                    <option value="Estudiante">Estudiante</option>
-                    <option value="Trainee">Trainee</option>
-                    <option value="Junior">Junior</option>
-                  </select>
+                <input type="text" placeholder="cantidad" class="campos-formulario" id="cantidad">
+                <select class="campos-formulario" id="categoria" onclick="valorCategoria()">
+                    <option value="1">Estudiante</option>
+                    <option value="2">Trainee</option>
+                    <option value="3">Junior</option>
+                </select>
             </div>
         </form>
             <label id="total">Total a Pagar: $ </label>
             <div class="botones_espacio">
-                <button class="botones">Borrar</button>
-                <button  class="botones">Resumen</button>
+                <button class="botones btn_borrar">Borrar</button>
+                <button class="botones btn_resumen" onclick="calcularValorTicket()">Resumen</button>
             </div>
             </section>
     <footer>
