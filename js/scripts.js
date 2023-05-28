@@ -26,11 +26,16 @@ function eleccionEstudiante(){
     document.getElementById("categoria").value = 1;
 }
 
-
 function eleccionTrainee(){
     document.getElementById("categoria").value = 2;
 }
 
 function eleccionJunior(){
     document.getElementById("categoria").value = 3;
+}
+
+
+function borrar(){
+    document.querySelector(".estructura_formulario").reset();
+    document.getElementById("total").innerHTML = "Total a Pagar: $ ";
 }
