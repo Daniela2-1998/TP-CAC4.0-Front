@@ -1,114 +1,95 @@
-/* Basic styling */ * 
-{ 
+/* PANTALLA COMPUTADORA */ 
+* { 
     box-sizing: border-box; padding: 0; margin: 0;    
 } 
 
-header{
-    height: 30px;
-    width: 100%;
-}
-
-ul{ 
-    list-style-type: none; 
-    box-sizing: content-box;
-} 
-
 .navegador{
-    height: 100%;
+    height: 50px;
     width:  100%;
     padding: 0.7% 2% 3.5%; 
     background-color: rgb(56, 55, 56);
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.logo_cac{
-    width: 80px;
-    height: 1%;
-    margin-left: 7%;
+.espacio_logo{
+    width: 7%;
+    height: 50px;
 }
 
-.letras_nav{
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    position:absolute;
-    text-align: center;
-    padding: 1%;
+.logo{
+    width: 100%;
+    height: 50px;
+    background-image: url("/img/codoacodo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-.opciones_nav{
-    margin-left: 30%;
+.contenido-nav{
+    width: 100%;
+    height: 50px;
+    font-size: 1rem;
+    padding: 0.5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.letras_secundarias_nav{
-    color: rgb(193, 186, 186);
-    text-decoration: none;
-    font-size: 16px;
-    padding: 1%;
-    position: absolute;
-    text-align: center;
-    margin-left: 38%;
+.contenido-nav ul{
+    width: 100%;
+    padding-right: 5% !important;
+    justify-content: space-evenly;
 }
 
-.espacio_lugar_fecha{
-    margin-left: 45%;
+.contenido-nav a, a{
+    text-decoration: none !important;
+    color: #fff !important;
+    margin-right: 5%;
 }
 
-.espacio_conviertete{
-    margin-left: 52%;
-}
 
 
 #letra_color_verde{
-    color: rgb(18, 158, 18);
-    margin-left: 63%;
+    color: rgb(18, 158, 18) !important;
 }
 
-.imagen1_car{
+.espacio-carousel{
+    width: 100%;
+    height: auto;
+    margin-top: -2%;
+}
+
+.imagen_car{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/car1.jpg");
-}
-
-.imagen2_car{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/car2.jpg");
-}
-
-.imagen3_car{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/img/car3.jpg");
 }
 
 #tamaño_img_carousel{
     background-size: 100%;
     background-repeat: no-repeat;
     margin-top: 2%;
-    height: 770px;
+    height: 730px;
 } 
 
-#caption1 {
-	color: white;
+.caption{
+    color: white;
+    font-weight: bolder;
 	text-shadow: 1px 1px black;
+	position: absolute;
+	bottom: 8vw;
+	right: 4vw;
+}
+
+.cap1 {
 	font-size: 35px;
-	position: absolute;
-	bottom: 8vw;
-	right: 4vw;
     margin-left: 1%;
-    margin-bottom: 14%;
-    font-weight: bolder;
+    margin-bottom: 15%;
 }
 
-
-#caption2 {
-	color: white;
-	text-shadow: 1px 1px black;
+.cap2 {
 	font-size: 20px;
-	position: absolute;
-	bottom: 8vw;
-	right: 4vw;
     margin-left: 50%;
-    margin-bottom: 3%;
     text-align: end;
-    font-weight: bolder;
 }
-
-
 
 .conoce{
     margin-top: 1%;
@@ -126,29 +107,24 @@ ul{
         height: 500px;
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         margin-left: 9.7%;
-        margin-top: 1%;
+        margin-top: 3%;
         justify-content: space-evenly;
 }
 
-
-
-
-#contenedor_prog{
+.contenedor_prog{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 
-#javascript{
+.javascript{
     font-weight: bold;
     width: 30%;
 }
 
-#react{
+.react{
     margin-left: 3%;
     background-color: rgba(0, 187, 255, 0.899);
     color: white;
@@ -159,7 +135,7 @@ ul{
     border-color: #191818;
 }
 
-#startups{
+.startups{
     margin-left: 3%;
 }
 
@@ -167,33 +143,35 @@ ul{
     background-color: gray;
     color: white;
 }
-#nombre{
+
+.nombre{
     margin-top: -5%;
     font-size: large;
 }
 
-
-#contenedor_imagen_playa{
+.contenedor_imagen_playa{
     width: 100%;
-    margin-top: 12%;
+    height: 350px;
+    margin-top: 7%;
 }
 
 #contenedor_texto_imagen{
+    height: 310px;
     background-color:  rgb(73, 71, 73);
     color: white;
+    border: 1px solid;
     border-color: white;
-    border-width: 1px;
-    border-style: solid;
 }
 
-#conoce_mas{
-    background-color: rgb(73, 71, 73);
-    color: white;
-    border-color: white;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 5%;
+.conoce_mas{
     width: 100px;
+    padding: 0.5%;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.espacio_textos{
+    height: 250px;
 }
 
 .parrafo_anotate{
@@ -203,6 +181,12 @@ ul{
 .subrayado{
     border-bottom: 2px dotted #191818;
     text-decoration:none;
+}
+
+.info_completa{
+    height: 420px;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 #info_orador{
@@ -226,25 +210,16 @@ ul{
     width: 25%;
 }
 
-.info_completa{
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; 
-}
-
 .area{
+    width: 51.5%;
     margin-top: -15%;
-    margin-left: 29.2%;
-    width: 41.2%;
+    margin-left: 25%;
 }
 
 .recuadro_aviso_boton{
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; 
+    height: 150px;
 }
+
 .recordatorio{
     text-align: center;
     margin-left: 29.2%;
@@ -264,412 +239,427 @@ ul{
 }
 
 footer{
-    background: linear-gradient(70deg, rgba(26,54,68,255), rgba(27,82,113,255));
-    height: 60px;
-    color: white;
-    padding: 1%;
-    display: flex;
-    flex-direction: column;
-}
-
-#preguntas_frecuentes{
-    margin-left: 12%;
-}
-
-.preguntas{
-    width: 20px;
-    color: white;
-    text-decoration: none;
-}
-
-.frecuentes{
-    width: 20px;
-    color: white;
-    text-decoration: none;
-}
-
-.palabras_footer{
-    margin-left: 4%;
-    color: white;
-    text-decoration: none;
-}
-
-
-
-
-@media screen and (max-width: 750px) {
-
-    header{
-        height: 50px;
-        width: 100%;
-    }
-    
-    ul{ 
-        list-style-type: none; 
-        box-sizing: content-box;
-    } 
-    
-    .navegador{
-        height: 100%;
-        width:  100%;
-        padding: 0% 0% 0%; 
-        background-color: rgb(56, 55, 56);
-    }
-    
-    .logo_cac{
-        width: 80px;
-        height: 2%;
-        margin-left: -5%;
-        margin-top: 0.5%;
-    }
-    
-    .letras_nav{
-        color: white;
-        text-decoration: none;
-        font-size: 16px;
-        position: absolute;
-        text-align: center;
-        margin-left: -2.5%;
-        margin-top: 1%;
-    }
-    
-    .opciones_nav{
-        margin-left: 10%;
-    }
-    
-    .letras_secundarias_nav{
-        color: rgb(193, 186, 186);
-        text-decoration: none;
-        font-size: 14px;
-        position: absolute;
-        text-align: center;
-        margin-left: 26%;
-        margin-top: 1.3%;
-    }
-    
-    .espacio_lugar_fecha{
-        margin-left: 39%;
-    }
-
-    .espacio_conviertete {
-        margin-left: 52%;
-    }
-    
-    #letra_color_verde {
-        color: rgb(18, 158, 18);
-        margin-left: 72.1%;
-    }
-    
-
-
-    #tamaño_img_carousel{
-        background-size: 100%;
-        background-repeat: no-repeat;
-        margin-top: 0%;
-        height: 400px;
-    } 
-    
-    #caption1 {
-        color: white;
-        text-shadow: 1px 1px black;
-        font-size: 24px;
-        position: absolute;
-        bottom: 8vw;
-        right: 4vw;
-        margin-left: 20%;
-        margin-bottom: 20%;
-        font-weight: bolder;
-    }
-    
-    
-    #caption2 {
-        color: white;
-        text-shadow: 1px 1px black;
-        font-size: 14px;
-        position: absolute;
-        bottom: 8vw;
-        right: 4vw;
-        margin-left: 30%;
-        margin-bottom: 5%;
-        text-align: end;
-        font-weight: bolder;
-    }
-
-    #contenedor_imagen_playa{
-        width: 100%;
-        margin-top: 100%;
-    }
-
-   
-#info_orador{
-    width: 80%;
-    height: 500px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: -32%;
-}
-
-.espacio_nombre{
-    margin-left: 19%;
-    width: 40%;
-}
-
-.espacio_apellido{
-    margin-left: 1%;
-    width: 40%;
-}
-
-.info_completa{
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; 
-}
-
-.area{
-    margin-top: -35%;
-    margin-left: 29.2%;
-    width: 41.2%;
-}
-
-.recuadro_aviso_boton{
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; 
-}
-.recordatorio{
-    margin-left: 10%;
-    color: rgb(105, 103, 103);
-    margin-right: 50%;
-}
-
-
-footer{
+    width: 100%;
     background: linear-gradient(70deg, rgba(26,54,68,255), rgba(27,82,113,255));
     height: 80px;
     color: white;
+    padding: 1%;
     display: flex;
-    flex-direction: column;
-}
-
-#preguntas_frecuentes{
-    margin-left: -2%;
-}
-
-.preguntas{
-    color: white;
-    text-decoration: none;
-}
-
-.frecuentes{
-    color: white;
-    text-decoration: none;
-}
-
-.palabras_footer{
-    padding: 0.2%;
-    color: white;
-    text-decoration: none;
-}
-
+    justify-content: space-evenly;
 }
 
 
 
 
+/* PANTALLA NOTEBOOK */
+@media (max-width: 1300px) {
 
-
-
-@media screen and (max-width: 500px) {
-
-    header{
-        height: 800px;
-        width: 50%;
-    }
-    
-    header:hover{
-        width: 100%;
-        transform: scale(100%);
-        transition: all 0.2s;
-
+    a {
+        margin-right: 3%;
+        font-size: 0.9rem;
     }
 
-    ul{ 
-        list-style-type: none; 
-        box-sizing: content-box;
-    } 
-    
-    .navegador{
-        height: 100%;
-        width:  100%;
-        padding: 0% 0% 0%; 
-        background-color: rgb(56, 55, 56);
-    }
-    
-    .logo_cac{
-        width: 150px;
-        height: 40%;
-        margin-left: 5%;
-        margin-top: 27%;
-    }
-    
-    .letras_nav{
-        color: white;
-        text-decoration: none;
-        font-size: 20px;
-        position: absolute;
-        text-align: center;
-        margin-left: -30%;
-        margin-top: 40%;
-    }
-    
-    .opciones_nav{
-        margin-left: -33%;
-        margin-top: 75%;
-    }
-    
-    .letras_secundarias_nav{
-        color: rgb(193, 186, 186);
-        text-decoration: none;
-        font-size: 14px;
-        position: absolute;
-        text-align: center;
-        margin-left: -28%;
-        margin-top: 85%;
-    }
-    
-    .espacio_lugar_fecha{
-        margin-left: -28%;
-        margin-top: 95%;
-    }
-    
-    .espacio_conviertete{
-        margin-left: -33%;
-        margin-top: 105%;
-    }
-    
-    
-    #letra_color_verde{
-        color: rgb(18, 158, 18);
-        margin-left: -30%;
-        margin-top: 130%;
-    }
-
-
-    #tamaño_img_carousel{
+    #tamaño_img_carousel {
         background-size: 100%;
         background-repeat: no-repeat;
-        height: 250px;
-    } 
-    
-    #caption1 {
-        color: white;
-        text-shadow: 1px 1px black;
-        font-size: 15px;
-        position: absolute;
-        bottom: 8vw;
-        right: 4vw;
-        margin-left: 20%;
-        margin-bottom: 30%;
-        font-weight: bolder;
+        margin-top: 2%;
+        height: 550px;
     }
-    
-    
-    #caption2 {
-        color: white;
-        text-shadow: 1px 1px black;
-        font-size: 12px;
-        position: absolute;
-        bottom: 8vw;
-        right: 4vw;
-        margin-left: 30%;
-        margin-bottom: 0%;
+
+    .cap1 {
+        font-size: 35px;
+        margin-left: 1%;
+        margin-bottom: 25%;
+    }
+
+    .cap2 {
+        font-size: 20px;
+        margin-left: 50%;
         text-align: end;
-        font-weight: bolder;
     }
 
-    #contenedor_imagen_playa{
-        width: 100%;
-        margin-top: 272%;
+    .contenedor {
+        margin-left: 10%;
+        margin-top: 5%;
+        justify-content: space-evenly;
     }
 
-  
+    .card {
+        margin-right: 5%;
+    }
+
+    .javascript {
+        width: 50%;
+        padding: 3%;
+    }
+
+    .react {
+        width: 30%;
+        padding: 3%;
+    }
+
+    .contenedor_imagen_playa{
+        height: 270px;
+        margin-bottom: 0%;
+    }
+    
+    #contenedor_texto_imagen{
+        height: 257px;
+        font-size: 0.8rem;
+    }
+    
+    .conoce_mas{
+        text-align: center;
+    }
+    
+    .parrafo_anotate{
+        text-align: center;
+    }
+
+    .info_completa{
+        height: 380px;
+    }
+    
     #info_orador{
-        width: 80%;
-        height: 500px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin-top: -45%;
-    }
-    
-    .espacio_nombre{
-        width: 60%;
-    }
-    
-    .espacio_apellido{
-        margin-top: 3%;
-        margin-left: 19%;
-        width: 60%;
-    }
-    
-    .area{
-        margin-top: -43%;
-        margin-left: 24%;
-        width: 46.5%;
+        height: 450px;
     }
     
     .recuadro_aviso_boton{
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center; 
+        height: 150px;
     }
-    .recordatorio{
-        text-align: center;;
-        color: rgb(105, 103, 103);
-        margin-right: 50%;
-        width: 80%;
-    }
-
-    .boton_enviar{
-        margin-left: 24%;
-        width: 46%;
-        margin-top: 2%;
-    }
-
     
-footer{
-    background: linear-gradient(70deg, rgba(26,54,68,255), rgba(27,82,113,255));
-    height: 100px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-}
+    .recordatorio{
+        width: 30%;
+        margin-left: 25%;
+        margin-right: 0%;
+        font-size: 1rem;
+    }
 
-#preguntas_frecuentes{
-    margin-left: 0%;
-}
-
-.preguntas{
-    color: white;
-    text-decoration: none;
-}
-
-.frecuentes{
-    color: white;
-    text-decoration: none;
-}
-
-.palabras_footer{
-    color: white;
-    text-decoration: none;
-}
 
 }
+
+
+@media (max-width: 999px) {
+
+    a {
+        font-size: 0.8rem;
+    }
+
+    #contenedor_texto_imagen{
+        height: 197px;
+        font-size: 0.7rem;
+    }
+
+    .espacio_textos{
+        height: 190px;
+    }
+
+    .area{
+        margin-top: -20%;
+    }
+
+    .recordatorio{
+        margin-left: 28.5%;
+    }
+
+}
+
+/* PANTALLA NOTEBOOK*/
+
+@media (max-width: 950px) {
+
+    #tamaño_img_carousel {
+        height: 500px;
+    }
+
+    .cap1 {
+        margin-bottom: 30%;
+    }
+
+    .oradores{
+        height: 50px;
+    }
+
+    .javascript {
+        width: 60%;
+    }
+
+}
+
+
+@media (max-width: 879.99px){
+
+    #tamaño_img_carousel {
+        height: 470px;
+    }
+
+    .cap1 {
+        font-size: 1.8rem;
+    }
+
+    .cap2 {
+        font-size: 1rem;
+    }
+
+    .conoce{
+        margin-top: 5%;
+    }
+    
+    .oradores{
+        height: 50px;
+    }
+
+    .contenedor{
+        height: 1700px;
+        flex-direction: column;
+    }
+
+    .card{
+        margin-bottom: 5%;
+    }
+
+    .javascript {
+        width: 40%;
+    }
+
+    .react{
+        width: 30%;
+    }
+
+    .contenedor_imagen_playa{
+        height: 220px;
+    }
+
+    .recordatorio{
+        width: 35%;
+        margin-left: 28%;
+    }
+
+
+}
+
+
+@media (max-width: 800px){
+
+    #tamaño_img_carousel {
+        height: 420px;
+    }
+
+    .cap1 {
+        font-size: 1.7rem;
+    }
+
+    .cap2 {
+        font-size: 0.9rem;
+    }
+
+    .contenedor_imagen_playa{
+        width: 100%;
+        height: 650px;
+    }
+
+    .recordatorio{
+        width: 35%;
+        margin-left: 28%;
+    }
+
+}
+
+
+/* PANTALLA DE CELULAR */
+
+@media (max-width: 700px){
+
+    .navegador{
+        height: 400px;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .espacio_logo{
+        width: 30%;
+        height: 70px;
+        margin-left: 7%;
+    }
+    
+    .logo{
+        height: 70px;
+    }
+    
+    .contenido-nav{
+        width: 100%;
+        height: 500px;
+        padding: 0%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    a{
+        width: 100%;
+        font-size: 1rem;
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .primer-espacio-nav{
+        margin-right: 0%;
+    }
+
+    #tamaño_img_carousel {
+        height: 360px;
+    }
+
+    .cap1 {
+        font-size: 1.7rem;
+        margin-bottom: 30%;
+    }
+
+    .cap2 {
+        font-size: 0.9rem;
+    }
+
+    .contenedor_imagen_playa{
+        width: 100%;
+        height: 650px;
+    }
+
+    .recordatorio{
+        width: 35%;
+        margin-left: 28%;
+    }
+
+
+}
+
+
+
+@media (max-width: 650px){
+
+    #tamaño_img_carousel {
+        height: 320px;
+    }
+
+    .cap1 {
+        font-size: 1.5rem;
+    }
+
+    .cap2 {
+        font-size: 0.8rem;
+    }
+
+    .contenedor_imagen_playa{
+        width: 90%;
+        height: 520px;
+        margin-left: 5%;
+    }
+
+    .area{
+        margin-top: -30%;
+    }
+
+    .recordatorio{
+        width: 40%;
+        margin-left: 29%;
+        font-size: 0.8rem;
+    }
+
+    footer{
+        height: 400px;
+        padding: 5%;
+    }
+
+
+}
+
+
+@media (max-width: 550px){
+
+    #tamaño_img_carousel {
+        height: 290px;
+    }
+
+    .cap1 {
+        font-size: 1.2rem;
+    }
+
+    .cap2 {
+        font-size: 0.7rem;
+    }
+
+    .contenedor{
+        height: 1800px;
+    }
+
+    .contenedor_imagen_playa{
+        height: 500px;
+    }
+
+    .espacio_textos{
+        height: 130px;
+    }
+
+    #contenedor_texto_imagen{
+        height: 230px;
+    }
+
+    .info_completa{
+        height: 350px;
+        margin-left: 0%;
+        margin-top: 0%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #info_orador{
+        width: 100%;
+        height: 350px;
+        margin-top: 0%;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .espacio_nombre, .espacio_apellido, .area{
+        width: 80%;
+        margin-left: 0%;
+        margin-bottom: 1.5%;
+        margin-top: 0%;
+    }
+    
+    .recordatorio{
+        width: 70%;
+        margin-left: 7%;
+        margin-bottom: 2%;
+        font-size: 1rem;
+    }
+  
+}
+
+@media (max-width: 500px){
+
+    #tamaño_img_carousel {
+        height: 260px;
+    }
+
+    .cap1 {
+        font-size: 1.1rem;
+    }
+
+    .cap2 {
+        font-size: 0.6rem;
+    }
+
+
+}
+
+
+@media (max-width: 450px){
+
+    #tamaño_img_carousel {
+        height: 240px;
+    }
+
+}
+
