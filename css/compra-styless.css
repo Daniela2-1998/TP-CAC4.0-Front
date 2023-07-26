@@ -1,3 +1,4 @@
+/* PANTALLA COMPUTADORA */
 .opciones-compra{
     display: flex;
     justify-content: center;
@@ -26,20 +27,19 @@
     height: 400px;
 }
 
-.estructura_formulario{
-    display: grid;
+.formulario{
     width: 60%;
     margin-left: 20%;
-    margin-top: 0.5%;
+    display: flex;
+    flex-direction: column;
 }
 
-.formulario{
-    display: flex;
-    justify-content: center;
+.formulario__campos-dobles{
+    margin-left: 10.5%;
 }
 
 .campos-formulario{
-    width: 39%;
+    width: 43.4%;
     height: 35px;
     padding: 0.5%;
     margin-right: 0.5%;
@@ -54,15 +54,22 @@
     padding: 0.5%;
 }
 
-.cantidad_categorias{
+.formulario__campos-cantidad-categoria{
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    margin-left: -14%;
-    padding: 0.5%;
 }
 
+.cantidad, .espacio-categoria{
+    width: 37%;
+}
 
+.cantidad{
+    margin-right: 4%;
+}
+
+.campos-cantidad-categoria{
+    width: 100%;
+}
 
 #total{
     width: 47.4%;
@@ -77,7 +84,6 @@
 }
 
 .botones_espacio{
-
     display: flex;
     justify-content: center;
     margin-left: 25.2%;
@@ -117,9 +123,9 @@
 }
 
 
-
+/* PANTALLA TABLET */
 @media screen and (max-width: 750px) {
-   
+
     .item-compra{
         width: 29.2%;
         height: 180px;
@@ -150,45 +156,28 @@
     }
     
     #campo_mail{
-        width: 99.5%;
+        width: 89%;
         margin-top: 1%;
-        margin-left: 0%;
+        margin-left: 11%;
         margin-bottom: 1%;
         padding: 0.5%;
     }
     
-    .cantidad_categorias{
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        margin-left: -20%;
-        padding: 1%;
+    #estructura_completa{
+        height: 400px;
     }
-    
+
     #total{
-        width: 88.5%;
-        height: 37px;
-        margin-top: 2%;
-        margin-left: 5.5%;
-        margin-bottom: 2%;
-        padding: 0.4%;
-        border-radius: 1.5%;
+        width: 54%;
+        margin-left: 27%;
     }
     
     .botones_espacio{
-        display: flex;
-        justify-content: center;
-        margin-left: 4.5%;
-        padding: 1%;
-        width: 92%;
-    }
-    
-    .botones{
-        width: 100%;
-        padding: 1%;
-        border-radius: 4.2%;
-        margin-bottom: 2%;
-        margin-right: 1.5%;
+        flex-direction: column;
+        margin-top: -10%;
+        margin-left: 26%;
+        height: 200px;
+        width: 55%;
     }
 
     .datos_faltantes{
@@ -213,8 +202,13 @@
     
      
 }
+/* PANTALLA CELULAR */
 
 @media screen and (max-width: 500px) {
+
+    #estructura_completa{
+        height: 500px !important;
+    }
 
     .item-compra{
         width: 30%;
@@ -228,44 +222,33 @@
     }    
     
     #campo_mail{
-        width: 100%;
+        width: 89%;
         height: 40px;
     }
     
-    .cantidad_categorias{
+    .formulario__campos-cantidad-categoria{
         width: 100%;
         display: flex;
-        justify-content: space-around;
-        margin-left: -16%;
-        padding: 1%;
+        flex-direction: column;
     }
     
+    .cantidad, .espacio-categoria{
+        width: 90%;
+    }
+
     #total{
-        width: 88.5%;
-        height: 37px;
-        margin-top: 2%;
-        margin-left: 5.5%;
-        margin-bottom: 2%;
-        padding: 0.4%;
-        border-radius: 1.5%;
+        width: 54%;
+        margin-left: 27%;
     }
     
     .botones_espacio{
-        display: flex;
-        justify-content: center;
-        margin-left: 4.5%;
-        padding: 1%;
-        width: 92%;
+        flex-direction: column;
+        margin-top: -10%;
+        margin-left: 26%;
+        height: 200px;
+        width: 55%;
     }
-    
-    .botones{
-        width: 100%;
-        padding: 1%;
-        border-radius: 4.2%;
-        margin-bottom: 2%;
-        margin-right: 1.5%;
-    }
-
+  
     .datos_faltantes{
         margin-left: 10%;
     }
@@ -273,34 +256,30 @@
     .datos_completos{
         margin-left: 25%;
     }
+
+    .datos_faltantes{
+        background-color: rgb(185, 0, 0);
+        color: white;
+        text-align: center;
+        width: 100%;
+        margin-left: 25%;
+        padding: 1rem;
+        font-size: 0.8rem;
+        position: sticky;
+    }
+    
+    .datos_completos{
+        background-color: rgb(74, 185, 0);
+        color: white;
+        text-align: center;
+        width: 100%;
+        margin-left: 25%;
+        font-size: 0.8rem;
+        padding: 1rem;
+    }
+
 }
 
 
 
 
-   /*Notebook*/
-   @media (min-width: 991.99px) and (max-width: 1199.98px) {
-}
-
-
-
-/*Tablet*/
-/*Portrait*/
-@media (min-width: 770px) and (max-width: 991.98px) {
-}
-
-
-@media (min-width: 601px) and (max-width: 769.99px) {
-}
-
-@media screen and (max-width: 600px) {
-}
-
-
-@media (min-width: 501px) and (max-width: 599.99px) {
-}
-
-/*movil*/
-/*Portrait*/
-/*Default*/
-@media (max-width: 500.99px) {}

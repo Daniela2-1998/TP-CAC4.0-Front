@@ -36,7 +36,7 @@ function eleccionJunior(){
 }
 
 function borrar(){
-    document.querySelector(".estructura_formulario").reset();
+    document.querySelector(".formulario").reset();
     document.getElementById("total").innerHTML = "Total a Pagar: $ ";
 }
 
